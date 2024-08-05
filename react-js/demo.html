@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .mainContainer {
+        display: flex;
+        height: 100vh;
+        /* by default flex direction row */
+        flex-direction: row-reverse;
+        /* Gives gap between all th flex items */
+        gap: 5%;
+        /* Makes all the items to center vertically on a single line */
+        /* align-items: center; */
+        /* makes all the content to center vertically of multiple lines */
+        align-content: center;
+        /* To center items w.r.t to the flex-direction */
+        /* justify-content: flex-end; */
+        flex-wrap: wrap;
+      }
+      .mainContainer > p {
+        /* flex grow will make an element occupy the entire remaining space */
+        flex-grow: 1;
+        height: 100px;
+        width: 100px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </div>
+  </body>
+</html>
