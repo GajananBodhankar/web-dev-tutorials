@@ -11,7 +11,8 @@ import React, { useState } from "react";
 function FragmentComponent() {
   const [count, setCount] = useState(1);
   return (
-    <div>
+    <div className="mainContainer">
+      <h1>I am header</h1>
       {count ? (
         <>
           {" "}
