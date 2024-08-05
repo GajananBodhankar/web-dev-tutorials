@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import DOMImage from "../assets/DOM .png";
 // IN react js fragment is something
 // which is used to wrapping multiple elements
 // so that the, React Compiler will idenfity it as
@@ -20,6 +20,7 @@ function FragmentComponent() {
           <p>I am count {count}</p>
         </>
       ) : null}
+      <img src={DOMImage} />
     </div>
   );
 }
