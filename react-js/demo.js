@@ -72,7 +72,7 @@
 //     newColor: 'purple'
 // });
 // console.log(Chameleon.colorChange('orange'));
-
+// console.log(freddia.newColor)
 //------------------------------------------------------------------------------
 
 // function checkAge(data) {
