@@ -48,9 +48,13 @@
 
 // // let obj2 = {}
 // // obj2.__proto__ = obj;
-// obj.disp()
 // obj.show();
-// obj.disp()
+// obj.disp();
+// obj2.disp(); // here output will be "able to vote" 
+// because obj.show() is called and obj2.__proto__ is child of obj.
+// but ------ if initially obj2.show() is called and after that obj.disp() is called,
+// it gives "Unable to vote" because, when child's method is called, that value is not passed to parent, but when parent's method is called that 
+// value is passed to child's proto.
 // console.log(obj2, obj)
 // console.log(obj2.name)
 
