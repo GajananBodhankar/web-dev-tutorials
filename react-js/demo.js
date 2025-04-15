@@ -14,11 +14,12 @@
 //     this.name = "gajanan";
 //     this.age = 21;
 //     this.disp = () => {
-//         //reference error
+//         //arrow fn takes this from its parent fn
 //         this.age = 24;
 //         console.log(this.name, this.age)
 //     }
 //     this.show = function () {
+//.       // a normal fn takes this from its parent object
 //         // Gajanan
 //         this.age = 24;
 //         console.log(this.name, this.age)
