@@ -9,7 +9,6 @@
 
 //   console.log(shape.perimeter());
 
-
 // function getData() {
 //     this.name = "gajanan";
 //     this.age = 21;
